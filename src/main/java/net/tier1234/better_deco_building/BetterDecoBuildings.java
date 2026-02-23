@@ -1,5 +1,6 @@
 package net.tier1234.better_deco_building;
 
+import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -34,6 +35,12 @@ public class BetterDecoBuildings {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.IRON_CHISEL);
+            event.accept(ModItems.GOLD_CHISEL);
+            event.accept(ModItems.DIAMOND_CHISEL);
+            event.accept(ModItems.NETHERITE_CHISEL);
+        }
 
     }
 
