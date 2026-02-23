@@ -1,3 +1,12 @@
 {
+  "itemGroup.better_deco_building.main": "BetterDeco: Building Expansion",
+
+
+  "item.better_deco_building.iron_chisel": "Iron Chisel",
+  "item.better_deco_building.gold_chisel": "Gold Chisel",
+  "item.better_deco_building.diamond_chisel": "Diamond Chisel",
+  "item.better_deco_building.netherite_chisel": "Netherite Chisel",
+
+  "bundled_tab.better_deco_building.utilities.title": "Utilities"
 
 }
