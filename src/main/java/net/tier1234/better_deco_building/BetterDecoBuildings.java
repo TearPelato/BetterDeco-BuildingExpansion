@@ -10,9 +10,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.tier1234.better_deco_building.init.ModBlocks;
-import net.tier1234.better_deco_building.init.ModCreativeTabs;
-import net.tier1234.better_deco_building.init.ModItems;
+import net.tier1234.better_deco_building.init.*;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Constants.MOD_ID)
@@ -23,6 +21,8 @@ public class BetterDecoBuildings {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuType.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
