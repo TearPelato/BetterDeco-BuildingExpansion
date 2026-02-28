@@ -7,8 +7,11 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent;
 import net.neoforged.neoforge.client.event.ContainerScreenEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.ScreenEvent;
+import net.tier1234.better_deco_building.block.entity.render.DecoChestBlockEntityRenderer;
 import net.tier1234.better_deco_building.creative_tabs.BundledTabSelector;
+import net.tier1234.better_deco_building.init.ModBlockEntities;
 
 @EventBusSubscriber(modid = Constants.MOD_ID, value = Dist.CLIENT)
 public class BetterDecoBuildingsClientEvents {
@@ -16,6 +19,14 @@ public class BetterDecoBuildingsClientEvents {
     public static void onClientSetup(FMLClientSetupEvent event) {
 
     }
+
+    @SubscribeEvent
+    public static void onRegisterRenderers(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerBlockEntityRenderer(ModBlockEntities.CUSTOM_CHEST_BE.get(), DecoChestBlockEntityRenderer::new);
+    }
+
+
+
 
 
 

@@ -3,12 +3,14 @@ package net.tier1234.better_deco_building.init;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.tier1234.better_deco_building.Constants;
 import net.tier1234.better_deco_building.block.custom.DecoBarrelBlock;
+import net.tier1234.better_deco_building.block.custom.DecoChestBlock;
 
 import java.util.function.Supplier;
 
@@ -16,6 +18,9 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Constants.MOD_ID);
 
 
+    /** Author: Tier1234
+     * Custom Barrels
+     **/
     public static final DeferredBlock<DecoBarrelBlock> OAK_BARREL = registerBlock("oak_barrel",
             ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
     public static final DeferredBlock<DecoBarrelBlock> BIRCH_BARREL = registerBlock("birch_barrel",
@@ -37,8 +42,12 @@ public class ModBlocks {
     public static final DeferredBlock<DecoBarrelBlock> WARPED_BARREL = registerBlock("warped_barrel",
             ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
 
+    /** Author: Tier1234
+     * Custom Chest
+     **/
 
-
+    public static final DeferredBlock<DecoChestBlock> OAK_CHEST = registerBlock("oak_chest",
+            ()-> new DecoChestBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CHEST), () -> ModBlockEntities.CUSTOM_CHEST_BE.get()));
 
 
 

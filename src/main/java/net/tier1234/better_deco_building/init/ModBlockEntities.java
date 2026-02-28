@@ -6,6 +6,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.tier1234.better_deco_building.Constants;
 import net.tier1234.better_deco_building.block.entity.DecoBarrelBlockEntity;
+import net.tier1234.better_deco_building.block.entity.DecoChestBlockEntity;
 
 import java.util.function.Supplier;
 
@@ -27,6 +28,14 @@ public class ModBlockEntities {
                                     ModBlocks.MANGROVE_BARREL.get(),
                                     ModBlocks.CRIMSON_BARREL.get(),
                                     ModBlocks.WARPED_BARREL.get())
+                            .build(null)
+            );
+
+    public static final Supplier<BlockEntityType<DecoChestBlockEntity>> CUSTOM_CHEST_BE =
+            BLOCK_ENTITIES.register("custom_chest", () ->
+                    BlockEntityType.Builder
+                            .of(DecoChestBlockEntity::new,
+                                    ModBlocks.OAK_CHEST.get())
                             .build(null)
             );
 
