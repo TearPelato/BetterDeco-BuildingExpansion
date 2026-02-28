@@ -3,18 +3,59 @@ package net.tier1234.better_deco_building.init;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.tier1234.better_deco_building.Constants;
+import net.tier1234.better_deco_building.block.custom.DecoBarrelBlock;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Constants.MOD_ID);
+
+
+    public static final DeferredBlock<DecoBarrelBlock> OAK_BARREL = registerBlock("oak_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> BIRCH_BARREL = registerBlock("birch_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> JUNGLE_BARREL = registerBlock("jungle_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> ACACIA_BARREL = registerBlock("acacia_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> DARK_OAK_BARREL = registerBlock("dark_oak_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> MANGROVE_BARREL = registerBlock("mangrove_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> CHERRY_BARREL = registerBlock("cherry_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> BAMBOO_BARREL = registerBlock("bamboo_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> CRIMSON_BARREL = registerBlock("crimson_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+    public static final DeferredBlock<DecoBarrelBlock> WARPED_BARREL = registerBlock("warped_barrel",
+            ()-> new DecoBarrelBlock(BlockBehaviour.Properties.of().strength(2f).noOcclusion().requiresCorrectToolForDrops()));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -2,6 +2,7 @@ package net.tier1234.better_deco_building.init;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Blocks;
 import net.tier1234.better_deco_building.Constants;
 import net.tier1234.better_deco_building.creative_tabs.BundledTabs;
 
@@ -30,7 +31,26 @@ public class ModBundledTabs {
                     .build()
     );
 
+    public static final BundledTabs FUNCTIONAL_BLOCKS = register(
+            BundledTabs.builder()
+                    .title(Component.translatable("bundled_tab.functional_blocks.title"))
+                    .icon(new ItemStack(ModBlocks.OAK_BARREL.get()))
+                    .displayItems((provider, output) -> {
+                        output.accept(ModBlocks.OAK_BARREL);
+                        output.accept(Blocks.BARREL);
+                        output.accept(ModBlocks.BIRCH_BARREL);
+                        output.accept(ModBlocks.JUNGLE_BARREL);
+                        output.accept(ModBlocks.ACACIA_BARREL);
+                        output.accept(ModBlocks.DARK_OAK_BARREL);
+                        output.accept(ModBlocks.MANGROVE_BARREL);
+                        output.accept(ModBlocks.CHERRY_BARREL);
+                        output.accept(ModBlocks.BAMBOO_BARREL);
+                        output.accept(ModBlocks.CRIMSON_BARREL);
+                        output.accept(ModBlocks.WARPED_BARREL);
 
+                    })
+                    .build()
+    );
 
 
     public static BundledTabs register(BundledTabs builder) {
