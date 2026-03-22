@@ -16,9 +16,9 @@ import java.util.List;
 public class ModBundledTabs {
     private static final List<BundledTabs> FILTERS = new ArrayList<>();
 
-    public static final BundledTabs UTILITIES = register(
+    public static final BundledTabs ITEMS_AND_TOOLS = register(
             BundledTabs.builder()
-                    .title(Component.translatable("bundled_tab." + Constants.MOD_ID + ".utilities.title"))
+                    .title(Component.translatable("bundled_tab." + Constants.MOD_ID + ".tools.title"))
                     .icon(new ItemStack(ModItems.DIAMOND_CHISEL.get()))
                     .displayItems((provider, output) -> {
                         output.accept(ModItems.IRON_CHISEL);
@@ -48,9 +48,65 @@ public class ModBundledTabs {
                         output.accept(ModBlocks.CRIMSON_BARREL);
                         output.accept(ModBlocks.WARPED_BARREL);
 
+                        output.accept(ModBlocks.OAK_CHEST);
+
                     })
                     .build()
     );
+
+    public static final BundledTabs BLOCKS = register(
+            BundledTabs.builder()
+                    .title(Component.translatable("bundled_tab" + Constants.MOD_ID + "blocks.title"))
+                    .icon(new ItemStack(ModBlocks.OAK_VERTICAL_SLAB.get()))
+                    .displayItems((provider, output) -> {
+                        output.accept(ModBlocks.OAK_VERTICAL_SLAB);
+                        output.accept(ModBlocks.SPRUCE_VERTICAL_SLAB);
+                        output.accept(ModBlocks.BIRCH_VERTICAL_SLAB);
+                        output.accept(ModBlocks.JUNGLE_VERTICAL_SLAB);
+                        output.accept(ModBlocks.ACACIA_VERTICAL_SLAB);
+                        output.accept(ModBlocks.DARK_OAK_VERTICAL_SLAB);
+                        output.accept(ModBlocks.MANGROVE_VERTICAL_SLAB);
+                        output.accept(ModBlocks.CHERRY_VERTICAL_SLAB);
+                        output.accept(ModBlocks.BAMBOO_VERTICAL_SLAB);
+                        output.accept(ModBlocks.CRIMSON_VERTICAL_SLAB);
+                        output.accept(ModBlocks.WARPED_VERTICAL_SLAB);
+
+                    })
+
+
+
+
+
+                    .build()
+    );
+
+
+    public static final BundledTabs UTILITIES = register(
+            BundledTabs.builder()
+                    .title(Component.translatable("bundled_tab" + Constants.MOD_ID + "utilities.title"))
+                    .icon(new ItemStack(ModBlocks.BIG_CHAIN.get()))
+                    .displayItems((provider, output) -> {
+                        output.accept(ModBlocks.BIG_CHAIN);
+                        output.accept(ModBlocks.WALL_LANTERN);
+
+                    })
+
+
+
+
+
+                    .build()
+    );
+
+
+
+
+
+
+
+
+
+
 
 
     public static BundledTabs register(BundledTabs builder) {

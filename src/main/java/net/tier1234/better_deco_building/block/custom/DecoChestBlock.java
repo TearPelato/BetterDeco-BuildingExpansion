@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.tier1234.better_deco_building.block.entity.DecoChestBlockEntity;
 
 import java.util.function.Supplier;
+
 /**
  * Author: Kaupenjoe
  * */

@@ -4,13 +4,13 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.tier1234.better_deco_building.Constants;
-import net.tier1234.better_deco_building.block.custom.DecoBarrelBlock;
-import net.tier1234.better_deco_building.block.custom.DecoChestBlock;
+import net.tier1234.better_deco_building.block.custom.*;
 
 import java.util.function.Supplier;
 
@@ -53,6 +53,48 @@ public class ModBlocks {
 
 
 
+    //VERTICAL SLABS
+    public static final DeferredBlock<DecoVerticalSlab> OAK_VERTICAL_SLAB = registerBlock("oak_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> SPRUCE_VERTICAL_SLAB = registerBlock("spruce_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> BIRCH_VERTICAL_SLAB = registerBlock("birch_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> JUNGLE_VERTICAL_SLAB = registerBlock("jungle_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> ACACIA_VERTICAL_SLAB = registerBlock("acacia_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> DARK_OAK_VERTICAL_SLAB = registerBlock("dark_oak_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> MANGROVE_VERTICAL_SLAB = registerBlock("mangrove_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> CHERRY_VERTICAL_SLAB = registerBlock("cherry_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> BAMBOO_VERTICAL_SLAB = registerBlock("bamboo_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> CRIMSON_VERTICAL_SLAB = registerBlock("crimson_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<DecoVerticalSlab> WARPED_VERTICAL_SLAB = registerBlock("warped_vertical_slab",
+            ()-> new DecoVerticalSlab(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)));
+
+
+   //Usefuls
+   public static final DeferredBlock<Block> BIG_CHAIN = registerBlock("big_chain",
+        ()-> new DecoChainBlock(BlockBehaviour.Properties.of().strength(4f).noOcclusion().sound(SoundType.CHAIN)
+        ));
+    public static final DeferredBlock<Block> WALL_LANTERN = registerBlock("wall_lantern",
+            ()-> new DecoWallLantern(BlockBehaviour.Properties.of().strength(2f).sound(SoundType.LANTERN).lightLevel(state -> 15)));
 
 
 
