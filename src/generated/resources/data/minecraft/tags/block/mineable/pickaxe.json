@@ -1,0 +1,19 @@
+{
+  "values": [
+    "better_deco_building:andesite_bricks",
+    "better_deco_building:andesite_mosaic_bricks",
+    "better_deco_building:andesite_array_bricks",
+    "better_deco_building:andesite_mixed_bricks",
+    "better_deco_building:raw_andesite",
+    "better_deco_building:diorite_bricks",
+    "better_deco_building:diorite_mosaic_bricks",
+    "better_deco_building:diorite_array_bricks",
+    "better_deco_building:diorite_mixed_bricks",
+    "better_deco_building:raw_diorite",
+    "better_deco_building:granite_bricks",
+    "better_deco_building:granite_mosaic_bricks",
+    "better_deco_building:granite_array_bricks",
+    "better_deco_building:granite_mixed_bricks",
+    "better_deco_building:raw_granite"
+  ]
+}

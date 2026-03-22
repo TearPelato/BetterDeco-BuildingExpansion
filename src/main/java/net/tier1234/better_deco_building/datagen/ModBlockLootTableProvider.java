@@ -58,8 +58,116 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         dropSelf(ModBlocks.OAK_CHEST.get());
 
+        //Andesite
+        dropSelf(ModBlocks.ANDESITE_ARRAY_BRICKS.get());
+        dropSelf(ModBlocks.ANDESITE_BRICKS.get());
+        dropSelf(ModBlocks.ANDESITE_MIXED_BRICKS.get());
+        dropSelf(ModBlocks.ANDESITE_MOSAIC_BRICKS.get());
+        dropSelf(ModBlocks.RAW_ANDESITE.get());
+
+        //Diorite
+        dropSelf(ModBlocks.DIORITE_ARRAY_BRICKS.get());
+        dropSelf(ModBlocks.DIORITE_BRICKS.get());
+        dropSelf(ModBlocks.DIORITE_MIXED_BRICKS.get());
+        dropSelf(ModBlocks.DIORITE_MOSAIC_BRICKS.get());
+        dropSelf(ModBlocks.RAW_DIORITE.get());
+        //Granite
+        dropSelf(ModBlocks.GRANITE_ARRAY_BRICKS.get());
+        dropSelf(ModBlocks.GRANITE_BRICKS.get());
+        dropSelf(ModBlocks.GRANITE_MIXED_BRICKS.get());
+        dropSelf(ModBlocks.GRANITE_MOSAIC_BRICKS.get());
+        dropSelf(ModBlocks.RAW_GRANITE.get());
 
 
+        //Oak Variants
+
+        dropSelf(ModBlocks.OAK_PILED_PLANKS.get());
+        dropSelf(ModBlocks.OAK_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.OAK_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.SPRUCE_PILED_PLANKS.get());
+        dropSelf(ModBlocks.SPRUCE_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.SPRUCE_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.BIRCH_PILED_PLANKS.get());
+        dropSelf(ModBlocks.BIRCH_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.BIRCH_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.JUNGLE_PILED_PLANKS.get());
+        dropSelf(ModBlocks.JUNGLE_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.JUNGLE_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.ACACIA_PILED_PLANKS.get());
+        dropSelf(ModBlocks.ACACIA_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.ACACIA_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.DARK_OAK_PILED_PLANKS.get());
+        dropSelf(ModBlocks.DARK_OAK_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.DARK_OAK_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.MANGROVE_PILED_PLANKS.get());
+        dropSelf(ModBlocks.MANGROVE_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.MANGROVE_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.CHERRY_PILED_PLANKS.get());
+        dropSelf(ModBlocks.CHERRY_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.CHERRY_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.BAMBOO_PILED_PLANKS.get());
+        dropSelf(ModBlocks.BAMBOO_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.BAMBOO_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.CRIMSON_PILED_PLANKS.get());
+        dropSelf(ModBlocks.CRIMSON_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.CRIMSON_VERTICAL_PLANKS.get());
+
+        dropSelf(ModBlocks.WARPED_PILED_PLANKS.get());
+        dropSelf(ModBlocks.WARPED_POLISHED_PLANKS.get());
+        dropSelf(ModBlocks.WARPED_VERTICAL_PLANKS.get());
+
+
+
+
+
+        //Planks Bricks
+        dropSelf(ModBlocks.OAK_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.SPRUCE_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.BIRCH_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.JUNGLE_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.ACACIA_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.MANGROVE_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.DARK_OAK_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.CHERRY_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.BAMBOO_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.CRIMSON_PLANKS_BRICKS.get());
+        dropSelf(ModBlocks.WARPED_PLANKS_BRICKS.get());
+
+
+        //Planks Pillar
+        dropSelf(ModBlocks.OAK_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.SPRUCE_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.BIRCH_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.JUNGLE_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.ACACIA_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.MANGROVE_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.DARK_OAK_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.CHERRY_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.BAMBOO_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.CRIMSON_PLANKS_PILLAR.get());
+        dropSelf(ModBlocks.WARPED_PLANKS_PILLAR.get());
+
+        //Planks Soft Bricks
+        dropSelf(ModBlocks.OAK_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.SPRUCE_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.BIRCH_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.JUNGLE_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.ACACIA_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.MANGROVE_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.DARK_OAK_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.CHERRY_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.BAMBOO_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.CRIMSON_SOFT_BRICKS.get());
+        dropSelf(ModBlocks.WARPED_SOFT_BRICKS.get());
 
     }
 

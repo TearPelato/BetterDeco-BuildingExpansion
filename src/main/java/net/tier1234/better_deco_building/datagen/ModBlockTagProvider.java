@@ -49,7 +49,110 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BIG_CHAIN.get())
                 .add(ModBlocks.WALL_LANTERN.get())
 
+                //Planks Bricks
+                .add(ModBlocks.OAK_PLANKS_BRICKS.get())
+                .add(ModBlocks.SPRUCE_PLANKS_BRICKS.get())
+                .add(ModBlocks.BIRCH_PLANKS_BRICKS.get())
+                .add(ModBlocks.JUNGLE_PLANKS_BRICKS.get())
+                .add(ModBlocks.ACACIA_PLANKS_BRICKS.get())
+                .add(ModBlocks.MANGROVE_PLANKS_BRICKS.get())
+                .add(ModBlocks.DARK_OAK_PLANKS_BRICKS.get())
+                .add(ModBlocks.CHERRY_PLANKS_BRICKS.get())
+                .add(ModBlocks.BAMBOO_PLANKS_BRICKS.get())
+                .add(ModBlocks.CRIMSON_PLANKS_BRICKS.get())
+                .add(ModBlocks.WARPED_PLANKS_BRICKS.get())
 
+                //Planks Pillar
+                .add(ModBlocks.OAK_PLANKS_PILLAR.get())
+                .add(ModBlocks.SPRUCE_PLANKS_PILLAR.get())
+                .add(ModBlocks.BIRCH_PLANKS_PILLAR.get())
+                .add(ModBlocks.JUNGLE_PLANKS_PILLAR.get())
+                .add(ModBlocks.ACACIA_PLANKS_PILLAR.get())
+                .add(ModBlocks.MANGROVE_PLANKS_PILLAR.get())
+                .add(ModBlocks.DARK_OAK_PLANKS_PILLAR.get())
+                .add(ModBlocks.CHERRY_PLANKS_PILLAR.get())
+                .add(ModBlocks.BAMBOO_PLANKS_PILLAR.get())
+                .add(ModBlocks.CRIMSON_PLANKS_PILLAR.get())
+                .add(ModBlocks.WARPED_PLANKS_PILLAR.get())
+
+                //Soft Bricks Planks
+                .add(ModBlocks.OAK_SOFT_BRICKS.get())
+                .add(ModBlocks.SPRUCE_SOFT_BRICKS.get())
+                .add(ModBlocks.BIRCH_SOFT_BRICKS.get())
+                .add(ModBlocks.JUNGLE_SOFT_BRICKS.get())
+                .add(ModBlocks.ACACIA_SOFT_BRICKS.get())
+                .add(ModBlocks.MANGROVE_SOFT_BRICKS.get())
+                .add(ModBlocks.DARK_OAK_SOFT_BRICKS.get())
+                .add(ModBlocks.CHERRY_SOFT_BRICKS.get())
+                .add(ModBlocks.BAMBOO_SOFT_BRICKS.get())
+                .add(ModBlocks.CRIMSON_SOFT_BRICKS.get())
+                .add(ModBlocks.WARPED_SOFT_BRICKS.get())
+
+                //Planks Additions
+                .add(ModBlocks.OAK_PILED_PLANKS.get())
+                .add(ModBlocks.OAK_VERTICAL_PLANKS.get())
+                .add(ModBlocks.OAK_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.SPRUCE_PILED_PLANKS.get())
+                .add(ModBlocks.SPRUCE_VERTICAL_PLANKS.get())
+                .add(ModBlocks.SPRUCE_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.BIRCH_PILED_PLANKS.get())
+                .add(ModBlocks.BIRCH_VERTICAL_PLANKS.get())
+                .add(ModBlocks.BIRCH_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.ACACIA_PILED_PLANKS.get())
+                .add(ModBlocks.ACACIA_VERTICAL_PLANKS.get())
+                .add(ModBlocks.ACACIA_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.JUNGLE_PILED_PLANKS.get())
+                .add(ModBlocks.JUNGLE_VERTICAL_PLANKS.get())
+                .add(ModBlocks.JUNGLE_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.DARK_OAK_PILED_PLANKS.get())
+                .add(ModBlocks.DARK_OAK_VERTICAL_PLANKS.get())
+                .add(ModBlocks.DARK_OAK_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.MANGROVE_PILED_PLANKS.get())
+                .add(ModBlocks.MANGROVE_VERTICAL_PLANKS.get())
+                .add(ModBlocks.MANGROVE_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.CHERRY_PILED_PLANKS.get())
+                .add(ModBlocks.CHERRY_VERTICAL_PLANKS.get())
+                .add(ModBlocks.CHERRY_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.BAMBOO_PILED_PLANKS.get())
+                .add(ModBlocks.BAMBOO_VERTICAL_PLANKS.get())
+                .add(ModBlocks.BAMBOO_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.CRIMSON_PILED_PLANKS.get())
+                .add(ModBlocks.CRIMSON_VERTICAL_PLANKS.get())
+                .add(ModBlocks.CRIMSON_POLISHED_PLANKS.get())
+
+                .add(ModBlocks.WARPED_PILED_PLANKS.get())
+                .add(ModBlocks.WARPED_VERTICAL_PLANKS.get())
+                .add(ModBlocks.WARPED_POLISHED_PLANKS.get())
+        ;
+
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+
+                .add(ModBlocks.ANDESITE_BRICKS.get())
+                .add(ModBlocks.ANDESITE_MOSAIC_BRICKS.get())
+                .add(ModBlocks.ANDESITE_ARRAY_BRICKS.get())
+                .add(ModBlocks.ANDESITE_MIXED_BRICKS.get())
+                .add(ModBlocks.RAW_ANDESITE.get())
+                //Diorite
+                .add(ModBlocks.DIORITE_BRICKS.get())
+                .add(ModBlocks.DIORITE_MOSAIC_BRICKS.get())
+                .add(ModBlocks.DIORITE_ARRAY_BRICKS.get())
+                .add(ModBlocks.DIORITE_MIXED_BRICKS.get())
+                .add(ModBlocks.RAW_DIORITE.get())
+                //Granite
+                .add(ModBlocks.GRANITE_BRICKS.get())
+                .add(ModBlocks.GRANITE_MOSAIC_BRICKS.get())
+                .add(ModBlocks.GRANITE_ARRAY_BRICKS.get())
+                .add(ModBlocks.GRANITE_MIXED_BRICKS.get())
+                .add(ModBlocks.RAW_GRANITE.get())
 
 
 
